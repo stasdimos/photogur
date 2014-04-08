@@ -11,3 +11,4 @@ As a user...
 ...if I click the edit button, I am taken to a page with a form that has the same three fields, except this time the fields are filled in with the information of the photo already, and after editing the information I can click a button to update the information of the photo. a. Upon clicking the update button I am redirected to the page for that photo.
 
 ...if, however, I click on the delete button, I am redirected to the home page and the photo cannot be found. 
+
