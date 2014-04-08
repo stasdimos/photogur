@@ -1550,3 +1550,79 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 16:51:44
 
 
 Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 16:51:44 -0400
+
+
+Started GET "/pictures" for 127.0.0.1 at 2014-04-08 17:22:43 -0400
+Processing by PicturesController#index as HTML
+  Rendered pictures/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 54ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 17:22:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 17:22:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 17:22:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 17:22:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 17:22:44 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 17:22:47 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/StasDimos/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.4/lib/rails/templates/rails/welcome/index.html.erb (0.8ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pictures" for 127.0.0.1 at 2014-04-08 17:22:52 -0400
+Processing by PicturesController#index as HTML
+  Rendered pictures/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 17:22:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 17:22:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 17:22:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 17:22:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 17:22:52 -0400
+
+
+Started GET "/pictures/new" for 127.0.0.1 at 2014-04-08 17:23:16 -0400
+Processing by PicturesController#new as HTML
+  Rendered pictures/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 17:23:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 17:23:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 17:23:16 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 17:23:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 17:23:16 -0400
+
+
+Started POST "/pictures" for 127.0.0.1 at 2014-04-08 17:23:24 -0400
+Processing by PicturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IdrGIejeaZFSPipwFfd9YgAHjj22ReH23R7A6pr8BZI=", "artist"=>"stas", "title"=>"dimos", "url"=>"the url", "commit"=>"Save"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)

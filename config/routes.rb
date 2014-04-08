@@ -1,6 +1,11 @@
 Photogur::Application.routes.draw do
   get 'pictures' => 'pictures#index'
 
+  post 'pictures' => 'pictures#create'
+  get 'pictures/new' => 'pictures#new'
+
+  get 'pictures/:id' => 'pictures#show'
+
   get 'pictures/0' => 'pictures#picture0'
   get 'pictures/1' => 'pictures#picture1'
   get 'pictures/2' => 'pictures#picture2'
