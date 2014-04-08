@@ -1508,3 +1508,45 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 16:02:26
 
 
 Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 16:02:26 -0400
+
+
+Started GET "/pictures/0" for 127.0.0.1 at 2014-04-08 16:51:25 -0400
+Processing by PicturesController#picture0 as HTML
+  Rendered pictures/picture0.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 55ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 16:51:26 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 16:51:26 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 16:51:26 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 16:51:26 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 16:51:26 -0400
+
+
+Started GET "/pictures" for 127.0.0.1 at 2014-04-08 16:51:44 -0400
+Processing by PicturesController#index as HTML
+  Rendered pictures/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 16:51:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 16:51:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 16:51:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 16:51:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 16:51:44 -0400
